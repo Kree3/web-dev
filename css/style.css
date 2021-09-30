@@ -46,9 +46,21 @@ body {
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    background-color: rebeccapurple;
+}
+
+.heading-primary {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.05;
+    letter-spacing: 0.5px;
+}
+
+.hero-description {
+    font-size: 2rem;
+    line-height: 1.6;
 }
 
 .hero-img {
     width: 100%;
 }
+
