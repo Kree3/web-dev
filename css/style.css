@@ -42,8 +42,11 @@ body {
 }
 
 .hero {
+    max-width: 130rem;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    background-color: rebeccapurple;
 }
 
 .hero-img {
